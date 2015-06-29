@@ -3,12 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 47;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		4E1BABB91B40F8E8005DD733 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E1BABB81B40F8E8005DD733 /* AppDelegate.swift */; };
-		4E1BABBB1B40F8E8005DD733 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 4E1BABBA1B40F8E8005DD733 /* GameScene.sks */; };
 		4E1BABBD1B40F8E8005DD733 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E1BABBC1B40F8E8005DD733 /* GameScene.swift */; };
 		4E1BABBF1B40F8E8005DD733 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E1BABBE1B40F8E8005DD733 /* GameViewController.swift */; };
 		4E1BABC21B40F8E8005DD733 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E1BABC01B40F8E8005DD733 /* Main.storyboard */; };
@@ -31,7 +30,6 @@
 		4E1BABB31B40F8E8005DD733 /* XBlaster.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XBlaster.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E1BABB71B40F8E8005DD733 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4E1BABB81B40F8E8005DD733 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		4E1BABBA1B40F8E8005DD733 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
 		4E1BABBC1B40F8E8005DD733 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		4E1BABBE1B40F8E8005DD733 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		4E1BABC11B40F8E8005DD733 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -82,7 +80,6 @@
 			isa = PBXGroup;
 			children = (
 				4E1BABB81B40F8E8005DD733 /* AppDelegate.swift */,
-				4E1BABBA1B40F8E8005DD733 /* GameScene.sks */,
 				4E1BABBC1B40F8E8005DD733 /* GameScene.swift */,
 				4E1BABBE1B40F8E8005DD733 /* GameViewController.swift */,
 				4E1BABC01B40F8E8005DD733 /* Main.storyboard */,
@@ -175,7 +172,7 @@
 				};
 			};
 			buildConfigurationList = 4E1BABAE1B40F8E8005DD733 /* Build configuration list for PBXProject "XBlaster" */;
-			compatibilityVersion = "Xcode 3.2";
+			compatibilityVersion = "Xcode 6.3";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -200,7 +197,6 @@
 			files = (
 				4E1BABC71B40F8E8005DD733 /* LaunchScreen.xib in Resources */,
 				4E1BABC41B40F8E8005DD733 /* Images.xcassets in Resources */,
-				4E1BABBB1B40F8E8005DD733 /* GameScene.sks in Resources */,
 				4E1BABC21B40F8E8005DD733 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -351,6 +347,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = XBlaster/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -361,6 +358,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = XBlaster/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
